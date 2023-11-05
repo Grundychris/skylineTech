@@ -1,0 +1,228 @@
+body {
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  
+  }
+  
+  .container-form {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    height: 110vh;
+    position: relative;
+  }
+  /* go back home button */
+  .next {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    font-size: 30px; 
+  }
+  
+  .next-home {
+    color: black;
+  }
+  
+  input[type=text]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-indent: 20px;
+  
+  }
+  
+  input[type=text]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none; 
+     
+  }
+  
+  ::placeholder{
+    font-size: 20px;
+    color: lightblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  } 
+  .User {
+    position: absolute;
+    top: 18%;
+    left: 24%;
+    font-size: 25;
+    
+  
+  }
+  /*
+  here is my email*/
+  
+  
+  input[type=email]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-indent: 25px;
+  
+  }
+  
+  .email {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 25;
+     
+  }
+  
+  input[type=email]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none; 
+     
+  }
+  /* 
+  here is my Phone number design */
+  
+  input[type=tel]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-indent: 25px;
+    margin-top: 10px;
+  }
+  
+    input[type=tel]:focus{
+      border-radius: 15px;
+      border: 1px solid lightblue;
+      outline: none; 
+    }
+  /*
+  here is my password design*/
+  
+  input[type=password]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-indent: 25px;
+    margin-top: 10px;
+  }
+  
+    input[type=password]:focus{
+      border-radius: 15px;
+      border: 1px solid lightblue;
+      outline: none; 
+    }
+  /*
+  here is my register design*/
+  .smart {
+    background-color: rgb(9, 255, 181);
+     padding: 15px 30px;
+     border: none;
+     border-radius: 7px;
+     font-size:  20px;
+     font-weight: bold;
+     width: 55%;
+     color: white;
+     margin-top: 20px;
+     cursor: pointer;
+  }
+  .smart:hover{
+    background-color: blue;
+    opacity: 0.6;
+  }
+  
+  /*
+  here is my or divider style*/
+  
+  .divider{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+  }
+  
+  .divider::after, .divider::before{
+    content: "";
+    padding: 1px;
+    background-color: lightblue;
+    flex: 1;
+    margin: 0;
+  }
+  
+  .divider-us{
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 30px;
+    border: 1px solid lightblue;
+  }
+  /*
+  social media button */
+  
+  .fbk-social{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left: -8px;
+    margin-right: 10px;
+  }
+  
+  .fbk-social:hover {
+    opacity: 0.5;
+  }
+  
+  
+  .atm-social{
+    background-color: #26a7de;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .gog-social{
+    background-color: #d10e00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  @media(max-width:1018px){
+  
+    .container-form{
+      width: 100%;
+    }
+  }
+  
+  .form-class {
+    word-spacing: ;
+  }
+  .form-user{
+    position: relative;
+  }
+  
+  .form-email{
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  
+  .form-Sign Up {
+    margin-top: 25px;
+  }
+  
+  
+  .form-main {
+    padding-bottom: 50px ;
+  }
+  
